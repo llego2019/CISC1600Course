@@ -1,4 +1,6 @@
-// cin with multiple  strings
+// Assignment #2
+// cin with multiple strings
+
 #include <iostream>
 #include <string>
 using namespace std;
