@@ -20,7 +20,7 @@ int main ()
   cout << ""I am "" << y << " years old, and ";
   
   string c;
-  cout << "my favorite thing is ___."" << endl;
+  cout << " my favorite thing is ___."" << endl;
   cout << "(What is your favorite thing?)" << endl;
   cin >> z;
   cout << "my favorite thing is "" << z << "." << endl;
