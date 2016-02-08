@@ -7,19 +7,19 @@ using namespace std;
 
 int main ()
 {
-  string a;
+  string x;
   cout << ""Hi, my name is ___."" << endl;
   cout << "(What is your name?)" << endl;
   cin >> x;
   cout << ""Hi, my name is "" << x << "." << endl;
   
-  string b;
+  string y;
   cout << ""I am ___ years old, and "" << endl;
   cout << "(What is your age?)" << endl;
   cin >> y;
   cout << ""I am "" << y << " years old, and ";
   
-  string c;
+  string z;
   cout << " my favorite thing is ___."" << endl;
   cout << "(What is your favorite thing?)" << endl;
   cin >> z;
