@@ -14,7 +14,7 @@ int main ()
   cout << ""Hi, my name is "" << x << "." << endl;
   
   string b;
-  cout << ""I am ___ years old."" << endl;
+  cout << ""I am ___ years old, and "" << endl;
   cout << "(What is your age?)" << endl;
   cin >> y;
   cout << ""I am "" << y << " years old, and ";
