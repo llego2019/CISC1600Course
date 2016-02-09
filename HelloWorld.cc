@@ -3,28 +3,32 @@
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 int main ()
 {
   string x;
-  cout << ""Hi, my name is ___."" << endl;
-  cout << "(What is your name?)" << endl;
-  cin >> x;
-  cout << ""Hi, my name is "" << x << "." << endl;
-  
   string y;
-  cout << ""I am ___ years old, and "" << endl;
-  cout << "(What is your age?)" << endl;
-  cin >> y;
-  cout << ""I am "" << y << " years old, and ";
-  
   string z;
-  cout << " my favorite thing is ___."" << endl;
-  cout << "(What is your favorite thing?)" << endl;
+
+  cout << "What is your name?" << endl;
+  cin >> x;
+  cout << "Okay, now I know your name is " << x << "." << endl;
+
+  cout << "What is your age?" << endl;
+  cin >> y;
+  cout << "Okay, now I know your age is " << y << "." << endl;
+
+  cout << "What is your favorite thing?" << endl;
   cin >> z;
-  cout << "my favorite thing is "" << z << "." << endl;
+  cout << "Okay, now I know your favorite thing is " << z << "."  << endl;
+
+  cout << "So, if you wanted to introduce yourself, you could say: 'Hi, my name is " << x << ". " << endl;
+  cout << "I am " << y << " years old, and my favorite thing is " << z << ".'" << endl;
+
 }
+
 
 
 # CISC1600
