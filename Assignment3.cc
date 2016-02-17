@@ -10,17 +10,18 @@ int main ()
 {
   // variable declaration and assignment
   string x;
-  double y;
+  int  y;
   double z;
-
-  y = 3;
-  z = 0.14;
 
   // greeting
   cout << "Hello! What is your first name?" << endl;
   cin >> x;
   cout << "Greetings, " << x << "..." << endl;
+  cout << "Please input an integer." << endl;
+  cin >> y;
+  cout << "Please input a decimal number. " << endl;
+  cin >> z;
 
   // calculation and display
-  cout << "I've just calculated that " << y << " + " << z << " = " << y+z << ", and that "  << y << " - " << z << " = " << y-z  << "!"  <<  endl;
+  cout << "I've made the following calculations:  " << y << " + " << z << " = " << y+z << ", and "  << y << " - " << z << " = " << y-z  << "."  <<  endl;
 }
